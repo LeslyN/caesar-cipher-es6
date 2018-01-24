@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cifrado Cesar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- link de googlefonts -->
+    <link href="https://fonts.googleapis.com/css?family=Acme|Righteous" rel="stylesheet">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon/"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Cifrado Cesar</title>
 </head>
 <body>
-	<h1>Cifrado Cesar</h1>
-	<br>
-	<script src="js/app.js" type="text/javascript"></script>
+  <header class="container mt-3">
+    <nav class="navbar  navbar-dark bg-primary justify-content-between">
+      <a class="navbar-brand">Navbar</a>
+      <div class="form-inline">
+      <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Ingrese frase a cifrar" id="cipher">
+      <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Ingrese frase a descifrar" id="decipher">
+      <button class="btn btn-dark my-2 my-sm-0 btn-sm" id="btn-enter">Acceder</button>
+      <button class="btn btn-danger my-2 my-sm-0 btn-sm ml-2" id="btn-cipher">Cifrar</button>
+      <button class="btn btn-danger my-2 my-sm-0 btn-sm ml-2" id="btn-decipher">Decifrar</button>
+      </div>
+    </nav>
+  </header>
+
+  <footer class="container">
+    <p class="text-center mt-4">Copyright&copy;</p>
+  </footer>
+
+  <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- JS de tooltip y popover -->
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
