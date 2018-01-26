@@ -12,22 +12,25 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Cifrado Cesar</title>
 </head>
-<body>
+<body class="bg-body">
   <header class="container mt-3">
+    <h2 class="text-center color-text">Cifrar y Descifrar</h2>
   </header>
-  <div class="justify-content">
-    <div class="form-inline">
-    <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Ingrese frase a cifrar" id="cipher">
-    <div id="text-cipher"></div>
-    <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Ingrese frase a descifrar" id="decipher">
-    <div id="text-decipher"></div>
-    <button type="button" class="btn btn-danger my-2 my-sm-0 btn-sm ml-2" id="btn-cipher">Cifrar</button>
-    <button type="button" class="btn btn-danger my-2 my-sm-0 btn-sm ml-2" id="btn-decipher">Decifrar</button>
+  <main>
+    <div class="container justify-content">
+      <div class="form-inline">
+      <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Ingrese frase a cifrar" id="cipher">
+      <div class="container font-weight-bold color-text" id="text-cipher"></div>
+      <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Ingrese frase a descifrar" id="decipher">
+      <div class="container font-weight-bold color-text" id="text-decipher"></div>
+      <button type="button" class="btn btn-style my-2 my-sm-0 btn-sm ml-2" id="btn-cipher">Cifrar</button>
+      <button type="button" class="btn btn-style my-2 my-sm-0 btn-sm ml-2" id="btn-decipher">Decifrar</button>
+      </div>
     </div>
-  </div>
+  </main>
 
   <footer class="container">
-    <p class="text-center mt-4">Copyright&copy;</p>
+    <p class="text-center mt-4 color-text">Copyright&copy;</p>
   </footer>
 
   <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
